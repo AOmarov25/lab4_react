@@ -74,7 +74,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" element={<TodoPage />} />
+				<Route path="/lab4_react" element={<TodoPage />} />
 				<Route path="/dnd" element={<DndPage />} />
 			</Routes>
 		</Router>
