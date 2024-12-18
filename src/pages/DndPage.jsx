@@ -202,7 +202,7 @@ function DndPage() {
 
     return (
         <div className="mainf" style={{ display: 'flex', justifyContent: 'center', height: '100vh' }}>
-            <Link to="/">Go to usual To-Do List</Link>
+            <Link to="/lab4_react">Go to usual To-Do List</Link>
             <DragDropContext onDragEnd={onDragEnd}>
                 {Object.entries(columns).map(([columnId, column]) => (
                     <div className="columnes" key={columnId} style={{ margin: '0 20px' }}>
