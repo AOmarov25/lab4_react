@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* h1, h2 {
+  color: #333;
+} */
+
+div {
+  margin: 10px 0;
+}
+
+button {
+  margin-left: 10px; /*was here*/
+  background-color: #2f00d8;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+input {
+  padding: 5px;
+}
+
+form {
+  margin-bottom: 20px;
+}
